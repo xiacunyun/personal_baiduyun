@@ -1,0 +1,166 @@
+/*头部*/
+.head{
+	height: 60px;
+	border-bottom: 1px solid #b3b3b3;
+}
+.head .left .logo{
+	width: 139px;
+	height: 0;
+	padding-top: 36px;
+	overflow: hidden;
+	margin: 16px 5px 0 28px;
+	background-position: 0 0;
+}
+.head .left .name{
+	font-size: 18px;
+	line-height: 36px;
+	margin-top: 24px;
+	color: #504f50;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.head .right{
+	font-size: 12px;
+	line-height: 56px;
+	padding-top: 4px;
+	margin-right: 20px;
+}
+.head .right a{
+	color: #2974b6;
+}
+.head .right a:hover{
+	text-decoration: underline;
+}
+.head .right .line{
+	width: 1px;
+	height: 12px;
+	background-color: #2974b6;
+	margin: 22px 8px 0 9px;
+}
+/*内容部分*/
+.content{
+	/*overflow: hidden;*/
+	position: relative;
+}
+.content .content_bg{
+	height: 417px;
+	background: url(../img/content_bg.png) repeat-x;
+}
+.content .content_img{
+	width: 658px;
+	height: 462px;
+	position: absolute;
+	left: 173px;
+	top: 0;
+	/*overflow: hidden;*/
+}
+.content_img .imgBox{
+	height:417px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.imgBox li{
+	transition: 1.5s;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+.content_img .dot{
+	position: absolute;
+	bottom: 0px;
+	right: 86px;
+	z-index: 2;
+}
+.dot a{
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	background-color: #d6d6d6;
+	float: left;
+	margin-right: 14px;
+}
+.dot a:hover{
+	background-color: #1e77d6;
+}
+.content .cloud_bg{
+	width: 604px;
+	height: 81px;
+	background-position: -356px -110px;
+	position: absolute;
+	left: 217px;
+	top: 372px;
+}
+/*登录框*/
+.content .loginBox{
+	width: 291px;
+	height: 250px;
+	padding: 10px 0 0 20px;
+	border-right: 2px solid #ffffff;
+	border-bottom: 5px solid #dbe1e6;
+	border-radius: 5px;
+	background-color: #f3fcff;
+	position: absolute;
+	right: 174px;
+	top: 70px;
+}
+.loginBox .loginBox_head{
+	
+}
+.loginBox_head span{
+	width: 20px;
+	height: 21px;
+	background-position: 0 -37px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.loginBox_head h4{
+	font-size: 14px;
+	color: #2486c4;
+	padding-top: 5px;
+}
+.loginBox .login_info{
+	margin-top: 30px;
+	width: 274px;
+	height: 81px;
+	border: 1px solid #e7e7e7;
+	position: relative;
+}
+.login_info input{
+	border: none;
+	width: 237px;
+	height: 20px;
+	line-height: 20px;
+	padding: 10px 0 10px 37px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.loginBox .login_btn{
+	width: 272px;
+	height: 40px;
+	border-radius: 2px;
+	background-color: #2592e0;
+	color: #FFFFFF;
+	line-height: 40px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+}
+.login_info span{
+	width: 16px;
+	height: 17px;
+	position: absolute;
+	left: 11px;
+}
+.login_info .uesername_icon{
+	background-position: -22px -37px;
+	top: 12px;
+}
+.login_info .password_icon{
+	background-position: -40px -37px;
+	top: 54px;
+}
+/*底部*/

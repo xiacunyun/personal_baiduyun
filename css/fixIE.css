@@ -1,0 +1,20 @@
+.ie_overflow{
+	*overflow: hidden;
+}
+.head .head_title{
+	*display: inline;
+}
+.search .search_btn{
+	*right: 4px;
+	*top: 2px;
+}
+.user_detail .triangle{
+	*top: -6px;
+}
+.user_detail a{
+	*text-indent: 0px;
+	*padding-left: 20px;
+	*width: 94px;
+	*zoom: 1;
+	*display: inline;
+}
